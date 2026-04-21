@@ -1,0 +1,120 @@
+body {
+    background: radial-gradient(circle at top, #1b2a4a 0%, #05070d 50%, #000000 100%);
+    color: #e6ecff;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(8, 12, 24, 0.88);
+    border: 1px solid #6ea8ff;
+    box-shadow: 0 0 20px rgba(110, 168, 255, 0.2);
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#header h1 {
+    color: #dfeaff;
+    text-shadow: 0 0 10px rgba(110, 168, 255, 0.6);
+}
+
+#nav {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(18, 26, 48, 0.9);
+    border: 1px solid #6ea8ff;
+    border-radius: 10px;
+}
+
+#nav a {
+    color: #ffffff;
+    background-color: #1c2b4d;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#nav a:hover {
+    background-color: #6ea8ff;
+    color: #000;
+}
+
+#content {
+    padding: 20px;
+    animation: slideUp 1.5s ease-in-out;
+}
+
+#content h2,
+#content h3 {
+    color: #dfeaff;
+    text-shadow: 0 0 6px rgba(110, 168, 255, 0.4);
+}
+
+.character {
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #111a33, #0a0f1f);
+    border: 1px solid #6ea8ff;
+    box-shadow: 0 0 12px rgba(110, 168, 255, 0.2);
+}
+
+.character img {
+    height: 50px;
+    width: auto;
+    border: 2px solid silver
+}
+
+.character p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.info {
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-left: 4px solid #6ea8ff;
+    box-shadow: 0 0 12px rgba(110, 168, 255, 0.15);
+}
+
+.poster {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #6ea8ff;
+    box-shadow: 0 0 14px rgba(110, 168, 255, 0.3);
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #6ea8ff;
+}
+
+#footer a {
+    color: #dfeaff;
+}
+
+#footer a:hover {
+    color: #6ea8ff;
+}
+
+.validation {
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #6ea8ff;
+}

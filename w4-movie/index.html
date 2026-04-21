@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movies</title>
+    <meta name="author" content="Dylan Osborn">
+    <meta name="description" content="A movie site featuring Interstellar and The Departed.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #0b1d2a, #1a1a1a);
+        }
+
+        #header {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        #header h1 {
+            color: #f5f5f5;
+        }
+
+        #nav {
+            background-color: rgba(255,255,255,0.08);
+            border: 1px solid #3d6f8e;
+            border-radius: 10px;
+        }
+
+        #nav a {
+            color: #f5f5f5;
+            background-color: #1f2d3a;
+        }
+
+        #nav a:hover {
+            background-color: #c9a227;
+            color: #111;
+        }
+
+        .movie-block {
+            background-color: rgba(255,255,255,0.06);
+            border-left: 5px solid #3d6f8e;
+            animation: slideUp 1.5s ease-in-out;
+        }
+
+        .info {
+            background-color: rgba(0,0,0,0.25);
+            border-left: 4px solid #c9a227;
+        }
+
+        #footer {
+            border-top: 2px solid #3d6f8e;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <hr>
+
+        <div id="header">
+            <h1>My Favorite Movies: <em>Interstellar</em> and <em>The Departed</em></h1>
+        </div>
+
+        <div id="nav">
+            <a href="index.html">Home</a>
+            <a href="interstellar-cast.html">Interstellar Cast</a>
+            <a href="interstellar-review.html">Interstellar Review</a>
+            <a href="departed-cast.html">The Departed Cast</a>
+            <a href="departed-review.html">The Departed Review</a>
+        </div>
+
+        <hr>
+
+        <div id="content">
+            <h2>HOME</h2>
+
+            <div class="movie-block">
+                <h3><em>Interstellar</em></h3>
+                <p>
+                    <em>Interstellar</em> is a science fiction film about a group of astronauts who travel through a wormhole in search of a new home for humanity as Earth becomes less habitable. The movie mixes survival, family, time, and exploration in a way that makes it emotional as well as visually impressive.
+                </p>
+                <img src="images/interstellar-poster.webp" alt="Interstellar poster" class="poster">
+
+                <div class="info">
+                    <p><b>Company Credits:</b> Paramount Pictures, Warner Bros.</p>
+                    <p><b>Release Date:</b> November 7, 2014</p>
+                    <p><b>Genres:</b> Adventure, Drama, Sci-Fi</p>
+                    <p><b>Rating:</b> PG-13</p>
+                    <p><b>Running Time:</b> 169 min</p>
+                </div>
+            </div>
+
+            <div class="movie-block">
+                <h3><em>The Departed</em></h3>
+                <p>
+                    <em>The Departed</em> is a crime thriller about an undercover cop and a mole within the police department, both trying to uncover the other before they are exposed. The movie is intense, suspenseful, and full of strong performances and tension.
+                </p>
+                <img src="images/departed-poster.jpg" alt="The Departed poster" class="poster">
+
+                <div class="info">
+                    <p><b>Company Credits:</b> Warner Bros., Plan B Entertainment</p>
+                    <p><b>Release Date:</b> October 6, 2006</p>
+                    <p><b>Genres:</b> Crime, Drama, Thriller</p>
+                    <p><b>Rating:</b> R</p>
+                    <p><b>Running Time:</b> 151 min</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="footer">
+            <a href="#header">Back to Top</a>
+            <br>
+            <img src="images/index-validation.png" alt="Index validation screenshot" class="validation">
+        </div>
+
+    </div>
+
+</body>
+</html>
